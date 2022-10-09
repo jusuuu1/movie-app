@@ -1,0 +1,34 @@
+<!--Kerrotaan selainta tiedoston olevan HTML koodia-->
+<!DOCTYPE html>
+<html lang="fi">
+<!--Kaikki HTML-elmentit html elementin sisään-->
+<head>
+	<!--Tiedot sivusta-->
+	<meta charset="UTF-8">
+	<title>aps</title>
+	<!--Linkitetty css-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!--Sivulla näkyvät elementit-->
+	<main>
+		<!--Navigointivalikko-->
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Movie App</a></li>
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="github.html">Github</a></li>
+			</ul>
+		</nav>		
+		<div id="page-one">
+			<div>
+			<h1>Movie App</h1>
+			<!--Linkki uuden elokuvan lisäämiseen-->
+			<p><a href="newMovie.html">Add a movie to the database</a></p>
+			<!--Skripti, joka luo taulukon-->
+			<script src="front.js" async defer></script>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

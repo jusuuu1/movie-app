@@ -1,0 +1,42 @@
+<!--Kerrotaan selainta tiedoston olevan HTML koodia-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Kaikki HTML-elmentit html elementin sisään-->
+<head>
+    <!--Tiedot sivusta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Movie</title>
+    <!--Linkitetty css-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Sivulla näkyvät elementit-->
+    <!--Navigointivalikko-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Movie App</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="github.html">Github</a></li>
+        </ul>
+    </nav>
+    <!--Elokuvan lisäämistaulukko-->
+    <div id="updateadd-form-wrap">
+    <h1>Add movie</h1>
+    <form method="POST" action="/newMovie">
+        <label for="title">Title<input type="text" name="title" id="title"</label>
+        <label for="release">Release<input type="text" name="release" id="release"</label>
+        <label for="lenght">Lenght<input type="text" name="lenght" id="lenght"</label>
+        <label for="director">Director<input type="text" name="director" id="director"</label>
+        <label for="stars">Stars<input type="text" name="stars" id="stars"</label>
+        <label for="writers">Writers<input type="text" name="writers" id="writers"</label>
+        <label for="plot">Plot<input type="text" name="plot" id="plot"</label>
+        <label for="budget">Budget<input type="text" name="budget" id="budget"</label>
+        <label for="imdb">IMDB<input type="text" name="imdb" id="imdb"</label>
+        <input type="submit" value="Add">
+    </form>
+    <!--Skripti, joka luo taulukon-->
+    <script src="front.js" async defer></script>
+</body>
+</html>
