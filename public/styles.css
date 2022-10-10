@@ -84,6 +84,7 @@ a {
 	  text-decoration-style:inherit;
     margin-inline-start: 300px;
     margin-inline-end: 300px;
+    margin: 20px;
     font-size: 25px;
     color:#ddd;
 	} 
