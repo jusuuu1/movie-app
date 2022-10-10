@@ -1,9 +1,11 @@
 /*Laskeutumissivun nappi*/
 .buttons{
 	margin: 35px 855px;
+  display: flex;
 }
  button{
 	height: 50px;
+  display: flex;
 	width: 200px;
 	font-size: 24px;
 	font-weight: 600;
@@ -14,9 +16,11 @@
 	border: 1px solid black;
 	border-radius: 25px;
 	transition: .9s;
+  display: flex;
 }
 .buttons button:hover{
 	background: green;
+  display: flex;
 }
 /* Hävittää linkeistä alleviivauksen */
 a {
