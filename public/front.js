@@ -15,6 +15,7 @@ function readMovie(){
       let newRow = document.createElement('tr');
       // Luo solut title, release, lenght, director, stars, writers, plot, budget ja imdb-kentille
       // Käyttää funktiota createCell
+      newRow.appendChild(createCell(movies[i]._id));
       newRow.appendChild(createCell(movies[i].title));
       newRow.appendChild(createCell(movies[i].release));
       newRow.appendChild(createCell(movies[i].lenght));

@@ -1,5 +1,6 @@
 // päivitysfunktio
 document.body.onload = function() {
+    document.getElementById('_id').value = getParam('_id'); 
     document.getElementById('title').value = getParam('title'); 
     document.getElementById('release').value = getParam('release');
     document.getElementById('lenght').value = getParam('lenght');
